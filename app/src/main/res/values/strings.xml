@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MasterApp</string>
+
+    <string name="button_room">Go Room</string>
+    <string name="button_kitchen">Go Kitchen</string>
+
+    <string name="temp">Temperature</string>
+
+    <string name="label_register">Register</string>
+    <string name="label_room">Room</string>
+
+    <string name="drawer_header">Drawer Header</string>
+    <string name="home">Home</string>
+    <string name="create">Create</string>
+    <string name="general">General</string>
+    <string name="comunication">Comunication</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string name="account">Account</string>
+    <string name="help">Help</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="create_fragment">Create Fragment</string>
+    <string name="go_create">Go Create</string>
+
+    <string name="label_regions">Regiones</string>
+    <string name="id">ID</string>
+    <string name="region">Region</string>
+    <string name="read_json">Read Json</string>
+    <string name="no_data">No Data</string>
+</resources>

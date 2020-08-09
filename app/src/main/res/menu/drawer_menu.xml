@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/general">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="@string/home" />
+            <item
+                android:id="@+id/create"
+                android:icon="@drawable/ic_create_black_24dp"
+                android:title="@string/create" />
+            <item
+                android:id="@+id/regions"
+                android:icon="@drawable/ic_baseline_location_city_24"
+                android:title="@string/label_regions" />
+        </menu>
+    </item>
+
+    <item android:title="@string/comunication">
+        <menu>
+            <item
+                android:id="@+id/account"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="@string/account" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/help" />
+        </menu>
+    </item>
+
+
+
+</menu>
