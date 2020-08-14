@@ -11,7 +11,6 @@ import androidx.databinding.DataBindingUtil;
 import com.newforce.myapp.databinding.ActivityMainBinding;
 import com.newforce.myapp.model.data.TemperatureData;
 import com.newforce.myapp.ui.HomeActivity;
-import com.newforce.myapp.ui.activities.RegisterActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,11 +40,6 @@ public class MainActivity extends AppCompatActivity {
         Log.i(LOG_TAG, "onClickKitchen" + ACTIVITY_TAG);
     }
 
-    public void onClickRegister(View view){
-        Intent registerIntent = new Intent(this, RegisterActivity.class);
-        startActivity(registerIntent);
-        Log.i(LOG_TAG, "onClickRegister: " + ACTIVITY_TAG);
-    }
 
     public void onClickHome(View view){
         Intent homeIntent = new Intent(this, HomeActivity.class);

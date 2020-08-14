@@ -94,28 +94,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button_room" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="onClickRegister"
-            android:text="@string/label_register"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_home">
-        </Button>
 
         <Button
             android:id="@+id/button_home"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/home"
             android:onClick="onClickHome"
+            android:text="@string/home"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_kitchen">
-        </Button>
+            app:layout_constraintTop_toBottomOf="@+id/button_kitchen" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

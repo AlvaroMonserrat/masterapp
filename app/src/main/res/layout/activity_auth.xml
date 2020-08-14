@@ -3,17 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".auth.RegisterActivity">
-
+    tools:context=".auth.AuthActivity">
 
     <TextView
-        android:id="@+id/text_view_register"
+        android:id="@+id/text_view_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="64dp"
         android:fontFamily="monospace"
-        android:text="@string/registro"
+        android:text="@string/login"
         android:textColor="@color/colorPrimaryText"
         android:textSize="@dimen/medium_size"
         android:textStyle="bold"
@@ -34,7 +33,7 @@
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_view_register" />
+        app:layout_constraintTop_toBottomOf="@+id/text_view_login" />
 
 
     <EditText
@@ -54,14 +53,14 @@
         app:layout_constraintTop_toBottomOf="@+id/edit_text_email" />
 
     <Button
-        android:id="@+id/btn_sign_up"
+        android:id="@+id/btn_sign_in"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/sign_up"
-        android:onClick="onClickSignUp"
+        android:text="@string/sign_in"
+        android:onClick="onClickSigIn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.548"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,10 +71,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:text="@string/question_already_account"
+        android:text="@string/question_no_account"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_sign_up" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_sign_in" />
 
     <TextView
         android:id="@+id/text_view_sign_up"
@@ -84,8 +83,8 @@
         android:layout_marginTop="8dp"
         android:clickable="true"
         android:focusable="true"
-        android:onClick="onClickLogin"
-        android:text="@string/sign_in"
+        android:onClick="onClickRegister"
+        android:text="@string/new_account"
         android:textColor="@color/colorPrimaryText"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -102,6 +101,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_view_sign_up" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "256697536300",
+    "firebase_url": "https://angular-course-3076a.firebaseio.com",
+    "project_id": "angular-course-3076a",
+    "storage_bucket": "angular-course-3076a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256697536300:android:7e80e943210c2371b72689",
+        "android_client_info": {
+          "package_name": "com.newforce.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256697536300-5qcff745mnmhf14od2pdq8sde0edpiar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newforce.myapp",
+            "certificate_hash": "b90367be273d5161333105ae4300d11d62b4aa3f"
+          }
+        },
+        {
+          "client_id": "256697536300-djkec3hqp855l7rjr0v7rkttdds3t62v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDppXBOFiBPy5HHcjLLFUeW-bXm6xogJKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256697536300-djkec3hqp855l7rjr0v7rkttdds3t62v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

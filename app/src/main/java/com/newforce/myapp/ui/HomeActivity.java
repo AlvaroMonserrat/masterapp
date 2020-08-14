@@ -16,8 +16,9 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.navigation.NavigationView;
 import com.newforce.myapp.R;
+import com.newforce.myapp.ui.activities.AccountActivity;
 import com.newforce.myapp.ui.activities.RegionActivity;
-import com.newforce.myapp.ui.activities.RegisterActivity;
+import com.newforce.myapp.auth.RegisterActivity;
 import com.newforce.myapp.ui.fragments.CreateFragment;
 import com.newforce.myapp.ui.fragments.HomeFragment;
 
@@ -86,7 +87,7 @@ public class HomeActivity extends AppCompatActivity
 
         if(menuItem.getItemId() == R.id.account){
             Log.i(LOG_TAG, "Create Selected: " + ACTIVITY_TAG);
-            Intent intent = new Intent(this, RegisterActivity.class);
+            Intent intent = new Intent(this, AccountActivity.class);
             startActivity(intent);
         }
 
